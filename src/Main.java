@@ -1,3 +1,8 @@
+import Animals.*;
+import Clinic.Doctor;
+import Clinic.Nurse;
+import Clinic.VetClinic;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -6,22 +11,22 @@ public class Main {
     public static void main(String[] args) {
         Owner alex = new Owner("Alexey");
         Vaccination chumka = new Vaccination("chumka", LocalDate.of(2010, 12, 5));
-//        Animal barsik = new Cat("barsik", 10.0, alex, LocalDate.now(), List.of(chumka), Color.BLACK, "siamskiy");
+//        Animals.Animal barsik = new Animals.Cat("barsik", 10.0, alex, LocalDate.now(), List.of(chumka), Animals.Color.BLACK, "siamskiy");
 //        System.out.println(barsik.getName());
 //        System.out.println(barsik.getVaccinations());
-//        barsik.setVaccinations(List.of(chumka, new Vaccination("столбняк", LocalDate.now())));
+//        barsik.setVaccinations(List.of(chumka, new Animals.Vaccination("столбняк", LocalDate.now())));
 //        System.out.println(barsik.getVaccinations());
-//        Dog barbos = new Dog("barbos", 10.0, alex, LocalDate.now(), List.of(chumka), Color.WHITE);
-////        List<Animal> animals = new ArrayList<>();
+//        Animals.Dog barbos = new Animals.Dog("barbos", 10.0, alex, LocalDate.now(), List.of(chumka), Animals.Color.WHITE);
+////        List<Animals.Animal> animals = new ArrayList<>();
 ////        animals.add(barsik);
 ////        animals.add(barbos);
-////        for (Animal animal : animals) {
-////            if (animal instanceof Cat) {
-////                System.out.println(((Cat) animal).getBreed());
+////        for (Animals.Animal animal : animals) {
+////            if (animal instanceof Animals.Cat) {
+////                System.out.println(((Animals.Cat) animal).getBreed());
 ////            }
 ////            System.out.println(animal.getName());
 ////        }
-//        ((Cat) barsik).getBreed();
+//        ((Animals.Cat) barsik).getBreed();
 //        barsik.lifeCycle();
 
         Fish carp = new Fish("Карась");
@@ -31,7 +36,8 @@ public class Main {
         Cheetah speedy = new Cheetah("Шурик");
         Rhino rocksteady = new Rhino("Рокстеди");
 
-        List<Animal> animals = new ArrayList<>();
+        ArrayList<Animal> animals = new ArrayList<>();
+
         animals.add(carp);
         animals.add(jaws);
         animals.add(donald);
@@ -39,7 +45,7 @@ public class Main {
         animals.add(speedy);
         animals.add(rocksteady);
 
-        for (Animal animal : animals )
+       /* for (Animal animal : animals )
         {
             animal.fly();
         }
@@ -57,7 +63,21 @@ public class Main {
             } else if (animal instanceof Rhino || animal instanceof Cheetah) {
                 animal.toGo();
             }
-        }
-
+        }*/
+        VetClinic clinic = new VetClinic("Лечим!");
+        Doctor doctor = new Doctor("Айболит", "Терапевт", new Nurse("Анна"), animals);
+        doctor.heal();
+        doctor.giveAssignment("Подать шпринц");
+        doctor.giveAssignment("Подать обезболивающее");
+        doctor.heal();
+        doctor.addPatient(new Crow("Привет"));
+        System.out.println("-----------------------------------------");
+        animals.add(jaws);
+        clinic.addFlyablePatients(animals);
+        clinic.addSwimmablePatients(animals);
+        clinic.addRunnablePatients(animals);
     }
+
+
+
 }

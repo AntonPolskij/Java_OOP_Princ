@@ -1,3 +1,5 @@
+package Animals;
+
 public class Owner {
     private String fullName;
 

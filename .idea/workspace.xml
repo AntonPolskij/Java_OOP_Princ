@@ -4,27 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834dd17d-c5ea-440d-8e8a-448f89618dd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_OOP_Princ.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cheetah.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Crow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rhino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vaccination.java" afterDir="false" />
+    <list default="true" id="834dd17d-c5ea-440d-8e8a-448f89618dd1" name="Changes" comment="Lesson_1">
+      <change afterPath="$PROJECT_DIR$/src/Animals/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animals/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animals/Swimmable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clinic/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clinic/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clinic/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clinic/VetClinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clinic/interfaces/Healable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clinic/interfaces/Managable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cheetah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Cheetah.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Crow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Crow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rhino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Rhino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Shark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vaccination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Vaccination.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +39,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,15 +56,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -80,6 +88,18 @@
       <option name="presentableId" value="Default" />
       <updated>1695673438327</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lesson_1">
+      <created>1695677902254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695677902254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson_1" />
   </component>
 </project>

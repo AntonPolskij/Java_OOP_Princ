@@ -1,3 +1,5 @@
+package Animals;
+
 import java.time.LocalDate;
 
 public class Vaccination {

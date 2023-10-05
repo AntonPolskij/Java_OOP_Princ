@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834dd17d-c5ea-440d-8e8a-448f89618dd1" name="Changes" comment="Lesson_2">
-      <change afterPath="$PROJECT_DIR$/src/pharmacy/Azitronitum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pharmacy/CatPharmacy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pharmacy/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pharmacy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pharmacy/Penicilin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pharmacy/Pharmacy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pharmacy/PharmacyIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pharmacy/Water.java" afterDir="false" />
+    <list default="true" id="834dd17d-c5ea-440d-8e8a-448f89618dd1" name="Changes" comment="Lesson_3">
+      <change afterPath="$PROJECT_DIR$/src/gb_list/ArrayIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb_list/GBArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb_list/GBArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb_list/GBList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb_list/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OOP_Princ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_OOP_Princ.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +24,14 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson-2" />
+        <entry key="$PROJECT_DIR$" value="Lesson-3" />
       </map>
     </option>
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -46,16 +45,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.pharmacy.Main">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="gb_list" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GBArrayListTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Java_OOP_Princ" />
@@ -76,8 +90,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GBArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_OOP_Princ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gb_list" />
+      <option name="MAIN_CLASS_NAME" value="gb_list.GBArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GBArrayListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_OOP_Princ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gb_list" />
+      <option name="MAIN_CLASS_NAME" value="gb_list.GBArrayListTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GBArrayListTest" />
+        <item itemvalue="JUnit.GBArrayListTest.add" />
         <item itemvalue="Application.pharmacy.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -106,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695938109161</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson_3">
+      <created>1696423174814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696423174814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson_1" />
     <MESSAGE value="Lesson_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson_2" />
+    <MESSAGE value="Lesson_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson_3" />
   </component>
 </project>
